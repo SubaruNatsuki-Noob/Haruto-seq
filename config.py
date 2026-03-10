@@ -2,7 +2,7 @@ import os
 from os import environ
 
 TG_BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("API_ID", ""))
 API_HASH = os.environ.get("API_HASH", "")
 OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 PORT = os.environ.get("PORT", "8080")
